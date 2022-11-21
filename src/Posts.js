@@ -88,7 +88,7 @@ function Post(props) {
       </div>
 
       <div class="conteudo">
-        <img src={props.conteudoimg} data-test="post-image"/>
+        <img src={props.conteudoimg} onClick={curtir} data-test="post-image"/>
       </div>
 
       <div class="fundo">

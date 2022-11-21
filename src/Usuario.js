@@ -21,7 +21,7 @@ export default function Usuario() {
                 <strong data-test="name">catanacomics</strong>
                 <span onClick={trocarNome} data-test="edit-name">
                     {nome}
-                    <ion-icon name="pencil" ></ion-icon>
+                    <ion-icon name="pencil" onClick={trocarNome}></ion-icon>
                 </span>
             </div>
         </div>
